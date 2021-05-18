@@ -1,0 +1,21 @@
+  492  mkdir git-majonez
+  493  cd git-majonez/
+  494  git init
+  495  touch main.cpp
+  496  git commit -m "Initial commit"
+  497  git commit -m "Farewell changed"
+  498  git remote add origin https://github.com/ShabazzKing/git-majonez.git
+  499  git push -u origin master
+  500  git checkout -b cs
+  501  git reset --hard cb980ea8af9371cb66c5d61f4f34064a66fb87a5
+  502  git log
+  503  git commit -m "Greetings"
+  504  git push origin cs
+  505  git checkout master
+  506  git merge cs
+  507  git status
+  508  git add main.cpp 
+  509  git commit
+  510  history
+  511  history | tail -n +492 > history.txt
+  512  history | tail -n 21 > history.txt
